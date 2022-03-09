@@ -1,0 +1,126 @@
+/* Chamada do google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Nunito:wght@300&family=Smooch+Sans:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Smooch+Sans:wght@300;500&display=swap");
+
+html {
+  font-size: 10px;
+}
+
+.header-top {
+  position: fixed;
+  width: 100%;
+  min-height: 80px;
+  padding: 10px 25px;
+  font-family: "Dosis", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-size: 5.5rem;
+  font-weight: 300;
+}
+
+.header-title a {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.section {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-image: url("./img/index-background-FullHD.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top center;
+}
+
+.section-title {
+  font-family: "Nunito", sans-serif;
+  font-size: 8vmin;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 4rem;
+  margin-top: 8rem;
+  padding-top: 8rem;
+  color: white;
+}
+
+.section-description {
+  font-family: "Nunito", sans-serif;
+  font-size: 4vmin;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.section-paragraph {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.5vmin;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.login-btn {
+  margin: 10px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 12px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.login-btn:hover {
+  color: rgb(0, 204, 153);
+}
+
+.register-btn {
+  margin: 10px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 12px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.register-btn:hover {
+  color: rgb(0, 204, 153);
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.header-list-item {
+  font-family: "Dosis", sans-serif;
+  font-size: 2rem;
+}
+
+.header-list-item a {
+  padding-left: 15px;
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.header-list-item a:hover {
+  color: rgb(0, 204, 153);
+}
