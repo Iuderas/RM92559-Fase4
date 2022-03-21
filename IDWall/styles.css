@@ -33,15 +33,41 @@ ul a {
   padding: 10px;
 }
 
+.page-title {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 121px;
+}
+
+.search-section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#search-box {
+  min-width: 160px;
+  border-radius: 5px;
+}
+
+#page-body {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: top center;
+  flex-direction: column;
+}
+
 #sidebar {
   background-color: #50f;
   min-width: 250px;
   max-width: 250px;
   min-height: 100vh;
-}
-
-#sidebar.active {
-  margin-left: -250px;
 }
 
 #body-title {
